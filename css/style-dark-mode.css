@@ -6,13 +6,15 @@
 
 body {
   font-family: 'Fredoka';
+  color: rgb(255, 255, 255);
+  background-color: black;
 }
 
 .container-main {
   width: 60%;
   min-width: 500px;
   height: 1200px;
-  background-color: white;
+  background-color: black;
   margin: auto;
 }
 /* Start header  */
@@ -39,18 +41,18 @@ header p {
 /* Start generic card style */
 .card {
   width: calc((100% - 120px) / 3);
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   float: left;
-  color: white;
+  color: rgb(0, 0, 0);
   line-height: calc(125px / 3);
   vertical-align: middle;
-  margin: 0 20px;
+  margin: 0 10px;
   margin-bottom: 50px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px  rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 10px  rgba(255, 255, 255, 0.637);
 }
 .card:hover {
-  box-shadow: 5px 5px  rgb(209, 209, 209);
+  box-shadow: 3px 3px  rgb(228, 42, 109)
 }
 .card img {
 float: left;
@@ -60,7 +62,7 @@ border-radius: 10px;
 }
 .card h3 {
 text-transform: uppercase;
-font-size: 1.2rem;
+font-size: 1.2;
 }
 .card span {
   display: block;
@@ -68,14 +70,14 @@ font-size: 1.2rem;
 }
 .card a:last-child{
   text-decoration: none;
-  color: rgb(0, 89, 255);
-  font-size: 1.1rem;
+  color: rgb(228, 42, 109);
 }
 .card a:last-child::after {
   content: "@team.com";
 }
 .card a:hover {
-  color: rgb(228, 42, 109);
+  color: rgb(0, 17, 255);
+  text-decoration: underline;
 }
 /* End generic card style */
 main {
