@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Fredoka';
-  background-color: darkgray;
 }
 
 .container-main {
@@ -45,7 +44,10 @@ header p {
   margin: 0 20px;
   margin-bottom: 50px;
   border-radius: 10px;
-  box-shadow: 0px 0px 15px  rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 10px  rgba(0, 0, 0, 1);
+}
+.card:hover {
+  box-shadow: 5px 5px  rgb(209, 209, 209);
 }
 .card img {
 float: left;
