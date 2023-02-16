@@ -82,6 +82,7 @@ font-size: 1.2;
 /* End generic card style */
 main {
 margin-bottom: 100px;
+margin: auto;
 }
 /* Start Footer Style  */
 footer {
