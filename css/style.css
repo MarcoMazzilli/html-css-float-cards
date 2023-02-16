@@ -39,7 +39,6 @@ header p {
 /* Start generic card style */
 .card {
   width: calc((100% - 120px) / 3);
-  min-width: 380px ;
   background-color: black;
   float: left;
   color: white;
@@ -61,7 +60,7 @@ border-radius: 10px;
 }
 .card h3 {
 text-transform: uppercase;
-font-size: 1.5rem;
+font-size: 1.2rem;
 }
 .card span {
   display: block;
