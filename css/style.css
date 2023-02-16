@@ -31,7 +31,11 @@ header p {
   padding-bottom: 80px;
 }
 /* End header  */
-
+.clearfix {
+  display: table;
+  content: "";
+  clear: both;
+}
 /* Start generic card style */
 .card {
   width: calc((100% - 120px) / 3);
@@ -61,7 +65,7 @@ font-size: 1.5rem;
 }
 .card span {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 .card a:last-child{
   text-decoration: none;
@@ -74,12 +78,18 @@ font-size: 1.5rem;
   color: rgb(228, 42, 109);
 }
 /* End generic card style */
-
-/* Start Main  */
-
-
-
-
-
-
-/* End Main  */
+main {
+margin-bottom: 100px;
+}
+/* Start Footer Style  */
+footer {
+  font-size: 1.5rem;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+/* End Footer Style  */
+footer p a{
+  text-decoration: none;
+  color: rgb(228, 42, 109);
+}
