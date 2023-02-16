@@ -11,6 +11,7 @@ body {
 
 .container-main {
   width: 60%;
+  min-width: 500px;
   height: 1200px;
   background-color: white;
   margin: auto;
@@ -35,6 +36,7 @@ header p {
 /* Start generic card style */
 .card {
   width: calc((100% - 120px) / 3);
+  min-width: 380px ;
   background-color: black;
   float: left;
   color: white;
@@ -59,9 +61,15 @@ font-size: 1.5rem;
   display: block;
   font-size: 1.2rem;
 }
-.card a {
+.card a:last-child{
   text-decoration: none;
   color: rgb(95, 194, 228);
+}
+.card a:last-child::after {
+  content: "@team.com";
+}
+.card a:hover {
+  color: rgb(228, 42, 109);
 }
 /* End generic card style */
 
