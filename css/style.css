@@ -65,11 +65,12 @@ font-size: 1.5rem;
 }
 .card span {
   display: block;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .card a:last-child{
   text-decoration: none;
   color: rgb(95, 194, 228);
+  font-size: 1.1rem;
 }
 .card a:last-child::after {
   content: "@team.com";
