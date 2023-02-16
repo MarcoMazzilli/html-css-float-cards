@@ -68,7 +68,7 @@ font-size: 1.2rem;
 }
 .card a:last-child{
   text-decoration: none;
-  color: rgb(0, 89, 255);
+  color: rgb(71, 159, 198);
   font-size: 1.1rem;
 }
 .card a:last-child::after {
